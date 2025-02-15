@@ -585,6 +585,8 @@ html[theme=dark] .token.inserted {
 .sea-archive-list-item:hover .sea-archive-list-item-title {
   color: var(--sea-color-primary);
 }
+@import "../../.local/state/crossnote/style.less";
+
 .sea-article-content {
   word-break: break-word;
   margin-top: 1.5rem;
@@ -641,8 +643,6 @@ html[theme=dark] .token.inserted {
 .sea-article-catalog .toc-link:hover {
   color: var(--sea-color-primary);
 }
-
-@import "/Users/xjc/.local/state/crossnote/style.less"；
 .sea-friend-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
