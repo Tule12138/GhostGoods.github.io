@@ -73,40 +73,6 @@ html[theme=dark]::view-transition-old(root) {
 html[theme=dark]::view-transition-new(root) {
   z-index: 1;
 }
-/* 确保脚注容器正常显示 */
-footer, #footnotes {
-  display: block; /* 让脚注区域作为块级元素显示 */
-  margin-top: 2rem; /* 上方留出一定的间距 */
-}
-/* 脚注链接样式 */
-#footnotes a {
-  color: #0077cc; /* 设置链接颜色 */
-  text-decoration: underline; /* 下划线，方便用户识别 */
-  cursor: pointer; /* 鼠标悬停时显示为可点击 */
-}
-
-/* 确保脚注的锚点跳转行为正常 */
-a[href^="#"]:not([href="#"]) {
-  cursor: pointer;
-  text-decoration: none; /* 去除默认下划线 */
-}
-
-/* 确保脚注内容正常显示 */
-#footnotes .footnote {
-  margin-top: 1rem; /* 给每个脚注条目添加顶部间距 */
-  padding: 0.5rem 0; /* 添加内边距以增加行间距 */
-}
-
-#footnotes .footnote .footnote-link {
-  display: inline-block; /* 确保脚注链接是内联块元素 */
-  padding-left: 1rem; /* 给链接添加左边距，和文本有间隔 */
-}
-
-
-a[href^="#"]:hover {
-  color: var(--sea-color-primary); /* 鼠标悬停时颜色变化 */
-}
-
 /* 中性色 */
 :root {
   --sea-color-white: #ffffff;
