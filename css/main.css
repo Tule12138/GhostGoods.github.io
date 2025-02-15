@@ -641,6 +641,8 @@ html[theme=dark] .token.inserted {
 .sea-article-catalog .toc-link:hover {
   color: var(--sea-color-primary);
 }
+
+@import "/Users/xjc/.local/state/crossnote/style.less"；
 .sea-friend-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));

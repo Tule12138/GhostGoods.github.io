@@ -54,3 +54,5 @@
 .sea-article-catalog .toc-link:hover {
   color: var(--sea-color-primary);
 }
+
+@import "/Users/xjc/.local/state/crossnote/style.less"；
