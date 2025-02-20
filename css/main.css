@@ -585,7 +585,7 @@ html[theme=dark] .token.inserted {
 .sea-archive-list-item:hover .sea-archive-list-item-title {
   color: var(--sea-color-primary);
 }
-@import "../../.local/state/crossnote/style.less";
+@import "../../.local/state/crossnote/style.less"; #目测没用
 
 .sea-article-content {
   word-break: break-word;
