@@ -3,6 +3,7 @@
 
 generated: SSH, Personal Access Token
 using: SSH (device-github)
+两种认证应当在部署的具体设置中设置不同格式的仓库地址。
 
 ## config.yml
 
@@ -11,6 +12,8 @@ using: SSH (device-github)
 ### main config
 
 主要设置博客名称，部署设置，页面基础设置
+目前是用SSH，git@github.com的repo地址
+基于gh-pages
 
 ### theme config
 
