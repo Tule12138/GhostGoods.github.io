@@ -85,8 +85,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-aomori # 之前 sea 主题配置有问题
-themedir: node_modules/hexo-theme-aomori #指明路径
+theme: sea # 之前 sea 主题配置有问题
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
